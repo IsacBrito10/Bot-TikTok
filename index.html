@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bot TikTok</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff; --text: #1a1d21; --muted: #5b636b; --link: #0b5cad; --rule: #d9dde1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14171a; --text: #e8eaed; --muted: #9aa3ad; --link: #7ab7ff; --rule: #2b3138; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg); color: var(--text);
+    font: 1.0625rem/1.7 Georgia, "Times New Roman", serif;
+  }
+  main { max-width: 68ch; margin: 0 auto; }
+  nav { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-bottom: 2.5rem; font-family: system-ui, sans-serif; font-size: .95rem; }
+  a { color: var(--link); text-underline-offset: .2em; }
+  a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 1.5rem; }
+  h2 { font-size: 1.25rem; margin: 2.5rem 0 .75rem; }
+  section + section { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+  .muted { color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav aria-label="Pages">
+    <a href="index.html">Home</a>
+    <a href="termos.html">Terms of Service</a>
+    <a href="privacidade.html">Privacy Policy</a>
+  </nav>
+
+  <section lang="en">
+    <h1>Bot TikTok</h1>
+    <p>Bot TikTok is a personal tool used by a single creator, its owner. It prepares short vertical video clips from podcast episodes and sends each finished video to the owner's own TikTok inbox as a draft.</p>
+    <p>The tool never posts on its own. The owner opens the TikTok notification, reviews the video and its caption, and publishes it manually inside TikTok.</p>
+
+    <h2>How it works</h2>
+    <ol>
+      <li>A clip is prepared on the owner's computer, with a caption that credits the original podcast.</li>
+      <li>The owner authorizes the tool to access their own TikTok account through TikTok Login Kit.</li>
+      <li>The clip is uploaded to the owner's TikTok inbox through the Content Posting API, using the video.upload scope.</li>
+      <li>The owner reviews the draft in TikTok and decides whether to publish it.</li>
+    </ol>
+
+    <h2>Who can use it</h2>
+    <p>Only the owner. The tool is not offered to the public, and it has no sign-up and no other users.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:deeoleywin@gmail.com">deeoleywin@gmail.com</a></p>
+  </section>
+
+  <section lang="pt-BR">
+    <h1>Bot TikTok</h1>
+    <p>Bot TikTok é uma ferramenta pessoal, usada por um único criador, o seu dono. Ela prepara vídeos verticais curtos a partir de episódios de podcast e envia cada vídeo pronto, como rascunho, para a caixa de entrada do TikTok do próprio dono.</p>
+    <p>A ferramenta nunca publica sozinha. O dono abre a notificação do TikTok, revisa o vídeo e a legenda e publica manualmente dentro do TikTok.</p>
+
+    <h2>Como funciona</h2>
+    <ol>
+      <li>Um corte é preparado no computador do dono, com uma legenda que dá crédito ao podcast de origem.</li>
+      <li>O dono autoriza a ferramenta a acessar a própria conta do TikTok por meio do Login Kit.</li>
+      <li>O corte é enviado à caixa de entrada do TikTok do dono pela Content Posting API, com o escopo video.upload.</li>
+      <li>O dono revisa o rascunho no TikTok e decide se publica.</li>
+    </ol>
+
+    <h2>Quem pode usar</h2>
+    <p>Somente o dono. A ferramenta não é oferecida ao público, não tem cadastro e não tem outros usuários.</p>
+
+    <h2>Contato</h2>
+    <p><a href="mailto:deeoleywin@gmail.com">deeoleywin@gmail.com</a></p>
+    <p class="muted">Atualizado em 21 de novembro de 2026.</p>
+  </section>
+</main>
+</body>
+</html>
+
